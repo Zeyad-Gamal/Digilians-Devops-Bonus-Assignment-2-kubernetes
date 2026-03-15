@@ -1,0 +1,439 @@
+NAME               DATA   AGE
+app-config         4      139m
+kube-root-ca.crt   1      13d
+
+
+Name:         app-config
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+
+Data
+====
+APP_COLOR:
+----
+blue
+
+APP_ENV:
+----
+production
+
+APP_PORT:
+----
+8080
+
+MAX_CONNECTIONS:
+----
+100
+
+
+BinaryData
+====
+
+Events:  <none>
+
+
+
+apiVersion: v1
+data:
+  APP_COLOR: blue
+  APP_ENV: production
+  APP_PORT: "8080"
+  MAX_CONNECTIONS: "100"
+kind: ConfigMap
+metadata:
+  creationTimestamp: "2026-03-15T16:38:04Z"
+  name: app-config
+  namespace: default
+  resourceVersion: "94750"
+  uid: b18dd0f8-a7aa-49b6-9269-abc7255acef2
+
+
+
+ADMIN_SVC_SERVICE_HOST=10.104.73.26
+KUBERNETES_SERVICE_PORT=443
+KUBERNETES_PORT=tcp://10.96.0.1:443
+HOSTNAME=env-pod
+SHLVL=1
+WEB_SERVICE_PORT=tcp://10.109.183.208:80
+WEB_SERVICE_SERVICE_PORT=80
+HOME=/root
+ADMIN_SVC_SERVICE_PORT=80
+ADMIN_SVC_PORT=tcp://10.104.73.26:80
+APP_PORT=8080
+WEBAPP_SVC_SERVICE_HOST=10.97.191.168
+WEB_SERVICE_PORT_80_TCP_ADDR=10.109.183.208
+MAX_CONNECTIONS=100
+ADMIN_SVC_PORT_80_TCP_ADDR=10.104.73.26
+API_SVC_SERVICE_HOST=10.99.94.148
+WEB_SERVICE_PORT_80_TCP_PORT=80
+WEBAPP_SVC_SERVICE_PORT=80
+WEBAPP_SVC_PORT=tcp://10.97.191.168:80
+WEB_SERVICE_PORT_80_TCP_PROTO=tcp
+ADMIN_SVC_PORT_80_TCP_PORT=80
+ADMIN_SVC_PORT_80_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
+API_SVC_SERVICE_PORT=80
+API_SVC_PORT=tcp://10.99.94.148:80
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+KUBERNETES_PORT_443_TCP_PORT=443
+WEBAPP_SVC_PORT_80_TCP_ADDR=10.97.191.168
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+WEB_SERVICE_PORT_80_TCP=tcp://10.109.183.208:80
+WEBAPP_SVC_PORT_80_TCP_PORT=80
+ADMIN_SVC_PORT_80_TCP=tcp://10.104.73.26:80
+WEBAPP_SVC_PORT_80_TCP_PROTO=tcp
+API_SVC_PORT_80_TCP_ADDR=10.99.94.148
+APP_COLOR=blue
+API_SVC_PORT_80_TCP_PORT=80
+API_SVC_PORT_80_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
+KUBERNETES_SERVICE_PORT_HTTPS=443
+APP_ENV=production
+KUBERNETES_SERVICE_HOST=10.96.0.1
+PWD=/
+WEBAPP_SVC_PORT_80_TCP=tcp://10.97.191.168:80
+API_SVC_PORT_80_TCP=tcp://10.99.94.148:80
+WEB_SERVICE_SERVICE_HOST=10.109.183.208
+
+
+
+
+APP_COLOR=blue
+APP_ENV=production
+APP_PORT=8080
+WEBAPP_SVC_PORT_80_TCP_PROTO=tcp
+WEBAPP_SVC_PORT_80_TCP_PORT=80
+WEBAPP_SVC_SERVICE_PORT=80
+WEBAPP_SVC_PORT=tcp://10.97.191.168:80
+WEBAPP_SVC_PORT_80_TCP=tcp://10.97.191.168:80
+WEBAPP_SVC_SERVICE_HOST=10.97.191.168
+WEBAPP_SVC_PORT_80_TCP_ADDR=10.97.191.168
+
+
+MAX_CONNECTIONS=100
+
+
+
+Color=blue
+Port=8080
+
+
+
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+HOSTNAME=selective-pod
+COLOR=blue
+PORT=8080
+API_SVC_PORT_80_TCP_ADDR=10.99.94.148
+WEBAPP_SVC_SERVICE_HOST=10.97.191.168
+KUBERNETES_SERVICE_PORT_HTTPS=443
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+WEB_SERVICE_SERVICE_PORT=80
+WEB_SERVICE_PORT=tcp://10.109.183.208:80
+ADMIN_SVC_SERVICE_PORT=80
+ADMIN_SVC_PORT_80_TCP_PORT=80
+API_SVC_PORT_80_TCP=tcp://10.99.94.148:80
+API_SVC_PORT_80_TCP_PROTO=tcp
+WEBAPP_SVC_SERVICE_PORT=80
+WEBAPP_SVC_PORT=tcp://10.97.191.168:80
+WEBAPP_SVC_PORT_80_TCP_PORT=80
+ADMIN_SVC_PORT_80_TCP=tcp://10.104.73.26:80
+KUBERNETES_PORT_443_TCP_PORT=443
+KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
+WEB_SERVICE_PORT_80_TCP=tcp://10.109.183.208:80
+WEB_SERVICE_PORT_80_TCP_PROTO=tcp
+ADMIN_SVC_SERVICE_HOST=10.104.73.26
+ADMIN_SVC_PORT_80_TCP_PROTO=tcp
+API_SVC_SERVICE_PORT=80
+WEB_SERVICE_PORT_80_TCP_PORT=80
+ADMIN_SVC_PORT=tcp://10.104.73.26:80
+API_SVC_PORT=tcp://10.99.94.148:80
+WEBAPP_SVC_PORT_80_TCP=tcp://10.97.191.168:80
+ADMIN_SVC_PORT_80_TCP_ADDR=10.104.73.26
+WEBAPP_SVC_PORT_80_TCP_ADDR=10.97.191.168
+API_SVC_SERVICE_HOST=10.99.94.148
+API_SVC_PORT_80_TCP_PORT=80
+KUBERNETES_SERVICE_HOST=10.96.0.1
+KUBERNETES_SERVICE_PORT=443
+WEB_SERVICE_SERVICE_HOST=10.109.183.208
+WEBAPP_SVC_PORT_80_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
+KUBERNETES_PORT=tcp://10.96.0.1:443
+WEB_SERVICE_PORT_80_TCP_ADDR=10.109.183.208
+HOME=/root
+
+
+
+
+
+NAME        TYPE     DATA   AGE
+db-secret   Opaque   3      110s
+
+Name:         db-secret
+Namespace:    default
+Labels:       <none>
+Annotations:  <none>
+
+Type:  Opaque
+
+Data
+====
+DB_NAME:      5 bytes
+DB_PASSWORD:  11 bytes
+DB_USER:      5 bytes
+
+
+
+
+
+apiVersion: v1
+data:
+  DB_NAME: bXlhcHA=
+  DB_PASSWORD: cEBzc3cwcmQxMjM=
+  DB_USER: YWRtaW4=
+kind: Secret
+metadata:
+  creationTimestamp: "2026-03-15T19:08:24Z"
+  name: db-secret
+  namespace: default
+  resourceVersion: "98155"
+  uid: 94e7919e-437a-4091-9e6f-a1857cb7d967
+type: Opaque
+
+
+
+
+admin
+
+
+User=admin
+DB=myapp
+
+
+DB_USER=admin
+DB_NAME=myapp
+DB_PASSWORD=p@ssw0rd123
+
+
+
+
+Name:             db-pod
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Sun, 15 Mar 2026 21:14:30 +0200
+Labels:           <none>
+Annotations:      <none>
+Status:           Running
+IP:               10.244.1.14
+IPs:
+  IP:  10.244.1.14
+Containers:
+  db-container:
+    Container ID:  docker://00a633cb266018a72bb0578cc998b918f1ecc5138fcddc3daa25d3b95423f6e2
+    Image:         busybox
+    Image ID:      docker-pullable://busybox@sha256:b3255e7dfbcd10cb367af0d409747d511aeb66dfac98cf30e97e87e4207dd76f
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      sh
+      -c
+      echo User=$DB_USER && echo DB=$DB_NAME && sleep 3600
+    State:          Running
+      Started:      Sun, 15 Mar 2026 21:14:33 +0200
+    Ready:          True
+    Restart Count:  0
+    Environment Variables from:
+      db-secret   Secret  Optional: false
+    Environment:  <none>
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-bn5xt (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-bn5xt:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  2m41s  default-scheduler  Successfully assigned default/db-pod to minikube
+  Normal  Pulling    2m40s  kubelet            spec.containers{db-container}: Pulling image "busybox"
+  Normal  Pulled     2m38s  kubelet            spec.containers{db-container}: Successfully pulled image "busybox" in 1.815s (1.815s including waiting). Image size: 4425286 bytes.
+  Normal  Created    2m38s  kubelet            spec.containers{db-container}: Created container: db-container
+  Normal  Started    2m38s  kubelet            spec.containers{db-container}: Started container db-container
+
+
+
+
+
+---APP CONFIG---
+production 8080 blue
+---DATABASE---
+admin myapp
+
+
+
+ADMIN_SVC_PORT_80_TCP_ADDR=10.104.73.26
+ADMIN_SVC_PORT_80_TCP_PORT=80
+ADMIN_SVC_PORT_80_TCP_PROTO=tcp
+ADMIN_SVC_PORT_80_TCP=tcp://10.104.73.26:80
+ADMIN_SVC_PORT=tcp://10.104.73.26:80
+ADMIN_SVC_SERVICE_HOST=10.104.73.26
+ADMIN_SVC_SERVICE_PORT=80
+API_SVC_PORT_80_TCP_ADDR=10.99.94.148
+API_SVC_PORT_80_TCP_PORT=80
+API_SVC_PORT_80_TCP_PROTO=tcp
+API_SVC_PORT_80_TCP=tcp://10.99.94.148:80
+API_SVC_PORT=tcp://10.99.94.148:80
+API_SVC_SERVICE_HOST=10.99.94.148
+API_SVC_SERVICE_PORT=80
+APP_COLOR=blue
+APP_ENV=production
+APP_PORT=8080
+DB_NAME=myapp
+DB_PASSWORD=p@ssw0rd123
+DB_USER=admin
+HOME=/root
+HOSTNAME=fullapp-pod
+KUBERNETES_PORT_443_TCP_ADDR=10.96.0.1
+KUBERNETES_PORT_443_TCP_PORT=443
+KUBERNETES_PORT_443_TCP_PROTO=tcp
+KUBERNETES_PORT_443_TCP=tcp://10.96.0.1:443
+KUBERNETES_PORT=tcp://10.96.0.1:443
+KUBERNETES_SERVICE_HOST=10.96.0.1
+KUBERNETES_SERVICE_PORT=443
+KUBERNETES_SERVICE_PORT_HTTPS=443
+MAX_CONNECTIONS=100
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+WEBAPP_SVC_PORT_80_TCP_ADDR=10.97.191.168
+WEBAPP_SVC_PORT_80_TCP_PORT=80
+WEBAPP_SVC_PORT_80_TCP_PROTO=tcp
+WEBAPP_SVC_PORT_80_TCP=tcp://10.97.191.168:80
+WEBAPP_SVC_PORT=tcp://10.97.191.168:80
+WEBAPP_SVC_SERVICE_HOST=10.97.191.168
+WEBAPP_SVC_SERVICE_PORT=80
+WEB_SERVICE_PORT_80_TCP_ADDR=10.109.183.208
+WEB_SERVICE_PORT_80_TCP_PORT=80
+WEB_SERVICE_PORT_80_TCP_PROTO=tcp
+WEB_SERVICE_PORT_80_TCP=tcp://10.109.183.208:80
+WEB_SERVICE_PORT=tcp://10.109.183.208:80
+WEB_SERVICE_SERVICE_HOST=10.109.183.208
+WEB_SERVICE_SERVICE_PORT=80
+
+
+
+
+
+APP_ENV=production
+APP_PORT=8080
+DB_NAME=myapp
+DB_PASSWORD=p@ssw0rd123
+DB_USER=admin
+APP_COLOR=blue
+WEBAPP_SVC_SERVICE_PORT=80
+WEBAPP_SVC_PORT_80_TCP_PROTO=tcp
+WEBAPP_SVC_PORT_80_TCP_PORT=80
+WEBAPP_SVC_PORT_80_TCP_ADDR=10.97.191.168
+WEBAPP_SVC_PORT_80_TCP=tcp://10.97.191.168:80
+WEBAPP_SVC_PORT=tcp://10.97.191.168:80
+WEBAPP_SVC_SERVICE_HOST=10.97.191.168
+
+
+
+
+
+
+NAME                                READY   STATUS    RESTARTS   AGE
+webapp-configured-85b97ff9c-f5gx2   1/1     Running   0          2m10s
+webapp-configured-85b97ff9c-f9k44   1/1     Running   0          2m10s
+webapp-configured-85b97ff9c-kl9q5   1/1     Running   0          2m10s
+
+
+
+
+
+
+
+APP_ENV=production
+DB_USER=admin
+
+
+
+
+
+
+Name:             webapp-configured-85b97ff9c-kl9q5
+Namespace:        default
+Priority:         0
+Service Account:  default
+Node:             minikube/192.168.49.2
+Start Time:       Sun, 15 Mar 2026 21:24:18 +0200
+Labels:           app=webapp-configured
+                  pod-template-hash=85b97ff9c
+Annotations:      <none>
+Status:           Running
+IP:               10.244.1.16
+IPs:
+  IP:           10.244.1.16
+Controlled By:  ReplicaSet/webapp-configured-85b97ff9c
+Containers:
+  webapp-container:
+    Container ID:  docker://958c7550afcfe6373ec8c27a59eb2c57783d5bf63c64d02884e43352224b800c
+    Image:         busybox
+    Image ID:      docker-pullable://busybox@sha256:b3255e7dfbcd10cb367af0d409747d511aeb66dfac98cf30e97e87e4207dd76f
+    Port:          <none>
+    Host Port:     <none>
+    Command:
+      sh
+      -c
+      echo APP_ENV=$APP_ENV && echo DB_USER=$DB_USER && sleep 3600
+    State:          Running
+      Started:      Sun, 15 Mar 2026 21:24:20 +0200
+    Ready:          True
+    Restart Count:  0
+    Environment:
+      APP_ENV:      <set to the key 'APP_ENV' of config map 'app-config'>  Optional: false
+      DB_USER:      <set to the key 'DB_USER' in secret 'db-secret'>       Optional: false
+      DB_PASSWORD:  <set to the key 'DB_PASSWORD' in secret 'db-secret'>   Optional: false
+    Mounts:
+      /var/run/secrets/kubernetes.io/serviceaccount from kube-api-access-gvzp2 (ro)
+Conditions:
+  Type                        Status
+  PodReadyToStartContainers   True 
+  Initialized                 True 
+  Ready                       True 
+  ContainersReady             True 
+  PodScheduled                True 
+Volumes:
+  kube-api-access-gvzp2:
+    Type:                    Projected (a volume that contains injected data from multiple sources)
+    TokenExpirationSeconds:  3607
+    ConfigMapName:           kube-root-ca.crt
+    Optional:                false
+    DownwardAPI:             true
+QoS Class:                   BestEffort
+Node-Selectors:              <none>
+Tolerations:                 node.kubernetes.io/not-ready:NoExecute op=Exists for 300s
+                             node.kubernetes.io/unreachable:NoExecute op=Exists for 300s
+Events:
+  Type    Reason     Age    From               Message
+  ----    ------     ----   ----               -------
+  Normal  Scheduled  3m24s  default-scheduler  Successfully assigned default/webapp-configured-85b97ff9c-kl9q5 to minikube
+  Normal  Pulling    3m23s  kubelet            spec.containers{webapp-container}: Pulling image "busybox"
+  Normal  Pulled     3m22s  kubelet            spec.containers{webapp-container}: Successfully pulled image "busybox" in 1.817s (1.817s including waiting). Image size: 4425286 bytes.
+  Normal  Created    3m22s  kubelet            spec.containers{webapp-container}: Created container: webapp-container
+  Normal  Started    3m22s  kubelet            spec.containers{webapp-container}: Started container webapp-container
