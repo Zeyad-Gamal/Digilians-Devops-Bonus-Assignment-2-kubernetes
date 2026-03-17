@@ -1,1 +1,1 @@
-# Digilians-Devops-Assignment-6-kubernetes
+# Digilians-Devops-Assignment-5-kubernetes
